@@ -1,0 +1,6 @@
+1. start_of_image.sh finds the markers of JPEG start of image
+2. split.sh splits the data into four data files
+3. fix_endianness.sh fixes the endianness of two byte chunks in which the data was recieved
+4. The fourth file image looks somewhat similar to one of the other images but it looks suspeciously large in size. Since we were expecting five jpegs, we look for a hidden file.
+5. find_hidden.sh finds the hidden image offset
+6. extract_hidden_file.sh splits the fourth jpeg file into two images 
